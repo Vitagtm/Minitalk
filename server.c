@@ -17,7 +17,6 @@ void write_message(int bit)
 {
     static char letter;
     static int bit_displ;
-    //ft_putstr("Enter write_message function\n");
     if(bit == SIGUSR2)
         bit = 1;
     else
